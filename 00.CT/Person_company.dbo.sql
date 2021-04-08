@@ -18,7 +18,7 @@ create table company (
     city varchar(30)
 )
 
---changeset your.name:2
+--changeset your.name:3
 create table client (
     id int primary key,
     name varchar(50) not null,
