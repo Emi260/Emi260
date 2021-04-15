@@ -28,7 +28,7 @@ create table client (
 )
 
 --changeset Emiliano:1
-create table client (
+create table test (
     id int primary key,
     name varchar(50) not null,
     address1 varchar(50),
