@@ -2,6 +2,7 @@
 
 --changeset Emiliano:1
 create table users(
+  id int primary key,
   name varchar2(30),
   keys  varchar2(10)
 )
