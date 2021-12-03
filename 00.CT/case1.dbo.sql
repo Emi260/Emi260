@@ -1,0 +1,23 @@
+--liquibase formatted sql
+
+--changeset Emiliano:1
+create table users(
+  name varchar2(30),
+  key  varchar2(10)
+);
+
+
+--changeset Emiliano:2
+Alter table users
+Add (
+date_add date,
+name varchar2(30)
+);
+
+
+--changeset Emiliano:3
+Alter table usuarios
+Add 
+(
+date_update date
+);

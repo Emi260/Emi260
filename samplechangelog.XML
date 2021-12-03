@@ -10,5 +10,9 @@
 	http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.0.xsd
 	http://www.liquibase.org/xml/ns/dbchangelog
 	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
+<<<<<<< HEAD
 	<include file="/00.CT/Actividad5.dbo.sql"  relativeToChangelogFile="true"/>
+=======
+<include file="/00.CT/case1.dbo.sql"                                                        relativeToChangelogFile="true"/>
+>>>>>>> ad87ff1efa8b96ab5676411fdd717f0df352bf41
 </databaseChangeLog>
