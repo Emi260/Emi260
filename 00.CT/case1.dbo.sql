@@ -3,7 +3,7 @@
 --changeset Emiliano:1
 create table users(
   name varchar2(30),
-  key  varchar2(10)
+  keys  varchar2(10)
 );
 
 
