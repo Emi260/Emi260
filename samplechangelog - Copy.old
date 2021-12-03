@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:ext="http://'www.liquibase.org/xml/ns/dbchangelog-ext"
+	xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+	http://www.liquibase.org/xml/ns/pro
+	http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.0.xsd
+	http://www.liquibase.org/xml/ns/dbchangelog
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
+<include file="/00.CT/R.00.00.00-CT.20210101_122010.dbo.Scale.sql"                                   relativeToChangelogFile="true"/>
+<include file="/00.CT/R.00.00.00-CT.20210101_122110.dbo.GateScale.sql"                               relativeToChangelogFile="true"/>
+<include file="/00.CT/Person_company.dbo.sql"                                                        relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122017.dbo.ReasonCancelled.sql"                         relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122018.dbo.EquipmentTypeLoad.sql"                       relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122019.dbo.MaintenanceTable.sql"                        relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122021.dbo.MaintenanceTableDetail.sql"                  relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122022.dbo.MainTableValueLanguage.sql"                  relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122023.dbo.MaintenanceTableDetail.sql"                  relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122025.dbo.MaintenanceTable.sql"                        relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122026.dbo.ApplicationSetting.sql"                      relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122028.dbo.SecuritySeals.sql"                           relativeToChangelogFile="true"/>
+<include file="/00.DS/R.01.00.00-DS.20200101_122029.dbo.EquipmentActivityType.sql"                   relativeToChangelogFile="true"/>
+<include file="/00.IX/R.00.00.00-IX.20200111_122013.dbo.AddressType.sql"                             relativeToChangelogFile="true"/>
+<include file="/00.IX/R.00.00.00-IX.20200111_122013.dbo.ELMAH_Error.sql"                             relativeToChangelogFile="true"/>
+<include file="/00.IX/R.00.00.00-IX.20200131_122013.dbo.EquipmentActivity.sql"                       relativeToChangelogFile="true"/>
+<include file="/00.IX/R.00.00.00-IX.20210101_122013.dbo.Country.sql"                                 relativeToChangelogFile="true"/>
+<includeAll path="90.FN/" relativeToChangelogFile="true"  />
+<includeAll path="91.VW/" relativeToChangelogFile="true"  />
+<includeAll path="92.SP/" relativeToChangelogFile="true"  />
+</databaseChangeLog>
