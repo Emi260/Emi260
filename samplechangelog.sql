@@ -2,7 +2,4 @@
 
 --changeset Emiliano:2
 Alter table users
-Add (
-date_add date,
-name varchar(30)
-)
+Add date_add date, name varchar(30)
