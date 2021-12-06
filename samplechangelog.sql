@@ -1,5 +1,7 @@
 --liquibase formatted sql
 
---changeset Emiliano:2
-Alter table usuarios
-Add date_update date
+--changeset Emiliano:1
+create table users(
+  name varchar(30),
+  keys  varchar(10)
+)
