@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset script:3
+--changeset poc:1
 create table users(
   name varchar(30),
   keys  varchar(10)
