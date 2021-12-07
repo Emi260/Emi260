@@ -1,9 +1,5 @@
 --liquibase formatted sql
 
---changeset poc:1
-create table users(
-  name varchar(30),
-  keys  varchar(10)
-)
-;
--- rollback drop table users
+--changeset poc:2
+Alter table users
+Add date_add date, name varchar(30)
