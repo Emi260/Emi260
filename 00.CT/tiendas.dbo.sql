@@ -9,7 +9,7 @@ create table tiendas(
 
 --changeset copel:2
 Alter table tiendas
-Add (date_add date,name varchar2(30));
+Add date_add date,name varchar2(30);
 
 --changeset copel:3
 insert into tiendas (id, name, responsable, date) values('1', 'Tienda1', 'Responsable1', now);
