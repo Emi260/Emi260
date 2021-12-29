@@ -13,3 +13,6 @@ Add date_add date;
 
 --changeset copel:3
 insert into tiendas (id, name, responsable) values('1', 'Tienda1', 'Responsable1');
+
+--changeset copel:3
+DELETE FROM tiendas WHERE responsable='responsable1'; 
