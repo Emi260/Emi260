@@ -12,4 +12,4 @@ Alter table tiendas
 Add date_add date;
 
 --changeset copel:3
-insert into tiendas (id, name, responsable, date) values('1', 'Tienda1', 'Responsable1', now);
+insert into tiendas (id, name, responsable, date) values('1', 'Tienda1', 'Responsable1');
