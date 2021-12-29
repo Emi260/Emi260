@@ -10,6 +10,7 @@
 	http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.0.xsd
 	http://www.liquibase.org/xml/ns/dbchangelog
 	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
+<include file="/00.CT/tiendas.dbo.sql"                                                               relativeToChangelogFile="true"/>
 <include file="/00.CT/R.00.00.00-CT.20210101_122010.dbo.Scale.sql"                                   relativeToChangelogFile="true"/>
 <include file="/00.CT/R.00.00.00-CT.20210101_122110.dbo.GateScale.sql"                               relativeToChangelogFile="true"/>
 <include file="/00.CT/Person_company.dbo.sql"                                                        relativeToChangelogFile="true"/>
