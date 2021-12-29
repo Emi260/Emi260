@@ -19,7 +19,7 @@ create table company (
 )
 
 --changeset emiliano:3
-create table company (
+create table compania (
     id int primary key,
     name varchar(50) not null,
     address1 varchar(50)
