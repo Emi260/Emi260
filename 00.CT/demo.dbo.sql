@@ -21,3 +21,14 @@ create table companias (
     city varchar(30)
 )
 --rollback DROP TABLE company;
+
+--changeset jenkins:3 labels:sample-label context:sample-context
+--comment: se crea la tabla datos
+create table datos (
+    id int primary key not null identity(1, 1),
+    name varchar(50) not null,
+    address1 varchar(50),
+    address2 varchar(50),
+    city varchar(30)
+)
+--rollback DROP TABLE datos;
