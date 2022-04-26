@@ -10,10 +10,9 @@
 	http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.0.xsd
 	http://www.liquibase.org/xml/ns/dbchangelog
 	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
-<include file="/00.CT/tiendas.dbo.sql"                                                               relativeToChangelogFile="true"/>
+<include file="/00.CT/demo.dbo.sql"                                                                  relativeToChangelogFile="true"/>
 <include file="/00.CT/R.00.00.00-CT.20210101_122010.dbo.Scale.sql"                                   relativeToChangelogFile="true"/>
 <include file="/00.CT/R.00.00.00-CT.20210101_122110.dbo.GateScale.sql"                               relativeToChangelogFile="true"/>
-<include file="/00.CT/Person_company.dbo.sql"                                                        relativeToChangelogFile="true"/>
 <include file="/00.DS/R.01.00.00-DS.20200101_122017.dbo.ReasonCancelled.sql"                         relativeToChangelogFile="true"/>
 <include file="/00.DS/R.01.00.00-DS.20200101_122018.dbo.EquipmentTypeLoad.sql"                       relativeToChangelogFile="true"/>
 <include file="/00.DS/R.01.00.00-DS.20200101_122019.dbo.MaintenanceTable.sql"                        relativeToChangelogFile="true"/>
